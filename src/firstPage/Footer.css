@@ -1,0 +1,18 @@
+.footerLeft.col {
+    padding-left: 3rem;
+}
+.footerLeft>a>img{
+        border: 2px solid rgb(249 243 243);
+        padding: 2px;
+        border-radius: 70px;
+        height: 110px;
+        width: 110px;
+    }
+
+    .contactInfo{
+    margin-top: 10px;
+    }
+
+    /* .col.footerRight {
+        padding-left: 15rem;
+    } */

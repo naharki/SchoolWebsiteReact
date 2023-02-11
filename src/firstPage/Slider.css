@@ -1,0 +1,16 @@
+.schoolImage>img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .schoolImage>img{
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding: 0 0 0 0px;
+        margin:0 0 0 0px;
+        z-index: -1; 
+    }
+    
+}

@@ -1,0 +1,125 @@
+.schoolImage>img{
+    width: 100%;
+    height: auto;
+}
+.headTop{
+height:40px;
+align-items: center;
+}
+
+.headTop>a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.headTopLeft>a{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.slogan>h6{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.headTopRight{
+    align-items: center;
+    padding-right: 3rem;
+    justify-content: right;
+    padding-left: 20rem;
+
+}
+.headTopRight>div>img{
+    height: 27px;
+}
+
+.phoneImg>a{
+padding-left: 7px;
+cursor: pointer;
+font:sans-serif;
+color: white;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: 900;
+font-size: small;
+}
+.phoneImg>a:hover{
+    color: red;
+}
+
+.mailImg>img{
+    padding-left: 5rem;
+}
+.mailImg>a{
+    padding-left: 7px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 900;
+}
+.mailImg>a:hover{
+    color:red;
+}
+
+.headerBelow{
+    height: 100px;
+    justify-content: space-between;
+    border-bottom:2px solid #f1f1f1;
+}
+
+.sticked{
+    transition: 0.5s;
+    box-shadow: 0 2px 12px 2px black;
+}
+
+
+.logo>a>img{
+    padding-left: 4rem;
+    height: 90px;
+    width: 180px;
+   
+}
+
+.navbarRight {
+    font-family: "open sans", sans-serif;
+    color: #444444;
+    font-weight: 600;
+    font-size: small;
+    float: right;
+}
+
+
+@media screen and  (max-width :1024px) {
+    #topBar{
+        display: none !important;
+    }
+
+    .logo>a>img{
+    height: 80px;
+    width: 90px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    }
+
+    .pinnacle img{
+        height: 40px;
+        width:auto;
+        
+    }
+
+    .navbarRight{
+        padding-top: 0px;
+    }
+    
+}

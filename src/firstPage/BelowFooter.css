@@ -1,0 +1,12 @@
+.footerBelow {
+    font-family: 'open sans', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    align-items: center;
+    background-color: #aca8a8;
+
+}
+
+.credits>a {
+    text-decoration: none;
+}
